@@ -45,7 +45,7 @@ class ControllerPaymentBancoSantander extends Controller {
 	$valor_cobrado = str_replace(",", ".",$valor_cobrado);
 	$valor_boleto=number_format($valor_cobrado+$taxa_boleto, 2, ',', '');
 
-	$dadosboleto["nosso_numero"] = str_pad($pedidoId, 11, "0", STR_PAD_LEFT);  // Nosso numero sem o DV - REGRA: Máximo de 11 caracteres!
+	$dadosboleto["nosso_numero"] = str_pad($pedidoId, 7, "0", STR_PAD_LEFT);  // Nosso numero sem o DV - REGRA: Máximo de 7 caracteres!
 	$dadosboleto["numero_documento"] = $dadosboleto["nosso_numero"];	// Num do pedido ou do documento = Nosso numero
 	$dadosboleto["data_vencimento"] = $data_venc; // Data de Vencimento do Boleto - REGRA: Formato DD/MM/AAAA
 	$dadosboleto["data_documento"] = date("d/m/Y"); // Data de emissão do Boleto
@@ -80,8 +80,7 @@ class ControllerPaymentBancoSantander extends Controller {
 	$dadosboleto["codigo_cliente"] = $this->config->get('bancosantander_cliente'); // Código do Cliente (PSK) (Somente 7 digitos)
 	$dadosboleto["ponto_venda"] = $this->config->get('bancosantander_venda'); //Ponto de Venda = Agencia
 	$dadosboleto["carteira"] = "102";  // Cobrança Simples - SEM Registro
-	//$dadosboleto["carteira_descricao"] = "COBRAN&Ccedil;A SIMPLES - CSR";  // Descrição da Carteira
-	$dadosboleto["carteira_descricao"] = "102 SIMPLES / RAPIDA SEM REGISTRO";  // Descrição da Carteira
+	$dadosboleto["carteira_descricao"] = "COBRAN&Ccedil;A SIMPLES - CSR";  // Descrição da Carteira
 
 	// SEUS DADOS
 	$dadosboleto["identificacao"] = "Boleto Banc&aacute;rio";

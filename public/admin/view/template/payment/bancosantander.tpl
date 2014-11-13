@@ -14,6 +14,13 @@
       <div class="buttons"><a onclick="$('#form').submit();" class="button"><?php echo $button_save; ?></a><a href="<?php echo $cancel; ?>" class="button"><?php echo $button_cancel; ?></a></div>
     </div>
     <div class="content">
+	
+	<div id="tabs" class="htabs">
+	<a href="#tab-config" style="display: inline;" class="selected"><?php echo $entry_config; ?></a>
+	<a href="#tab-about" class="" style="display: inline;"><?php echo $entry_about; ?></a>
+	</div>
+	
+	<div id="tab-config">
       <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" id="form">
         <table class="form">
             <td><?php echo $entry_nome; ?></td>
@@ -123,6 +130,50 @@
         </table>
       </form>
     </div>
+	<div id="tab-about">
+	  <form action="<?php echo $action; ?>" method="post" enctype="multipart/form-data" id="form">
+        <table class="form">
+		  <tr>
+            <td><?php echo $entry_about_name; ?></td>
+            <td><?php echo $entry_about_name_description; ?></td>
+          </tr>
+		  <tr>
+            <td><?php echo $entry_about_version; ?></td>
+            <td><?php echo $entry_about_version_description; ?></td>
+          </tr>
+		  <tr>
+            <td><?php echo $entry_about_author; ?></td>
+            <td><?php echo $entry_about_author_description; ?></td>
+          </tr>
+		  <tr>
+            <td><?php echo $entry_about_support; ?></td>
+            <td><?php echo $entry_about_support_description; ?></td>
+          </tr>
+		  <tr>
+            <td><?php echo $entry_about_support_ped; ?></td>
+            <td><?php echo $entry_about_support_ped_description; ?></td>
+          </tr>
+	    </table>
+      </form>
+	</div>
+
+<script type="text/javascript">
+<!--
+$('#tabs a').tabs();
+function abrir(URL) {
+ 
+  var width = 600;
+  var height = 500;
+ 
+  var left = 99;
+  var top = 99;
+ 
+  window.open(URL,'janela', 'width='+width+', height='+height+', top='+top+', left='+left+', scrollbars=yes, status=no, toolbar=no, location=no, directories=no, menubar=no, resizable=no, fullscreen=no');
+ 
+}
+//-->
+</script>
+	</div>
   </div>
 </div>
 <?php echo $footer; ?> 

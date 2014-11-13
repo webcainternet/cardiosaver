@@ -39,6 +39,19 @@ class ControllerPaymentBancoSantander extends Controller {
 		$this->data['entry_ins3'] = $this->language->get('entry_ins3');
 		$this->data['entry_ins4'] = $this->language->get('entry_ins4');
 		
+		$this->data['entry_config'] = $this->language->get('entry_config');
+		$this->data['entry_about'] = $this->language->get('entry_about');
+		$this->data['entry_about_name'] = $this->language->get('entry_about_name');
+		$this->data['entry_about_name_description'] = $this->language->get('entry_about_name_description');
+		$this->data['entry_about_version'] = $this->language->get('entry_about_version');
+		$this->data['entry_about_version_description'] = $this->language->get('entry_about_version_description');
+		$this->data['entry_about_author'] = $this->language->get('entry_about_author');
+		$this->data['entry_about_author_description'] = $this->language->get('entry_about_author_description');
+		$this->data['entry_about_support'] = $this->language->get('entry_about_support');
+		$this->data['entry_about_support_description'] = $this->language->get('entry_about_support_description');
+		$this->data['entry_about_support_ped'] = $this->language->get('entry_about_support_ped');
+		$this->data['entry_about_support_ped_description'] = $this->language->get('entry_about_support_ped_description');
+		
 		$this->data['entry_order_status'] = $this->language->get('entry_order_status');		
 		$this->data['entry_total'] = $this->language->get('entry_total');	
 		$this->data['entry_geo_zone'] = $this->language->get('entry_geo_zone');
