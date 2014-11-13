@@ -1,0 +1,23 @@
+---------- Date: 2014-07-08 08:57:50 ~ IP : 177.148.160.146 ----------
+REQUEST URI : /index.php?route=account/order
+MOD DETAILS:
+   modFile   : /srv/httpd/cardiosaver.com.br/public\vqmod/xml/segunda_via_boleto_santander.xml
+   id        : 
+		Segunda Via Boleto na Lista de pedidos
+	
+   version   : 
+		1.0
+	
+   vqmver    : 
+		2.4.1
+	
+   author    : 
+		Rogerio Alan Dobler - rogerioalandobler@hotmail.com
+	
+
+File Name    : catalog/view/theme/*/template/account/order_list.tpl(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): <div class="order-id"><b><?php echo $text_order_id; ?></b> #<?php echo $order['order_id']; ?></div>
+
+----------------------------------------------------------------------
+
+
