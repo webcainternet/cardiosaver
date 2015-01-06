@@ -64,7 +64,7 @@
                 <ul class="social">						
                     <li class="span4"><a title="" class="facebook" href="http://facebook.com" data-original-title="Facebook"><span>Facebook</span>Curta nossa pagina</a></li>
                     <li class="span4"><a title="" class="twitter" href="http://twitter.com" data-original-title="Twitter"><span>Twitter</span>Siga-nos no Twitter</a></li>
-                    <li class="span4"><a title="" class="rss" href="#" data-original-title="RSS"><span>RSS</span>Acompanhe nossas novidades</a></li>
+                    <li class="span4"><a title="" class="rss" href="#" data-original-title="RSS"><span>85 3062-3302</span>Atendimento</a></li>
                 </ul>
             </div>
         </div>
