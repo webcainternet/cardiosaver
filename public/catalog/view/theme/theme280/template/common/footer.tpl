@@ -62,8 +62,8 @@
         <div class="container">
             <div class="row">
                 <ul class="social">						
-                    <li class="span4"><a title="" class="facebook" href="http://facebook.com" data-original-title="Facebook"><span>Facebook</span>Curta nossa pagina</a></li>
-                    <li class="span4"><a title="" class="twitter" href="http://twitter.com" data-original-title="Twitter"><span>Twitter</span>Siga-nos no Twitter</a></li>
+                    <li class="span4"><a title="" class="facebook" href="https://www.facebook.com/pages/CardioSaver-Ensino-e-Treinamento/694703397240575" data-original-title="Facebook"><span>Facebook</span>Curta nossa pagina</a></li>
+                    <li class="span4"><a title="" class="twitter" href="https://twitter.com/cardiosaver" data-original-title="Twitter"><span>Twitter</span>Siga-nos no Twitter</a></li>
                     <li class="span4"><a title="" class="rss" href="#" data-original-title="RSS"><span>85 3062-3302</span>Atendimento</a></li>
                 </ul>
             </div>
