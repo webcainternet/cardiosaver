@@ -1,6 +1,6 @@
 <?php
 // Heading 
-$_['heading_title']      = 'Devoluções';
+$_['heading_title']      = 'Cancelamentos';
 
 // Text
 $_['text_account']       = 'Minha Conta';
