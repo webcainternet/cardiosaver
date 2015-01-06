@@ -1899,6 +1899,8 @@ h1.style-1 {
 	border-bottom:1px solid #e6e6e6;
 	margin-bottom:10px;
 	padding-bottom:15px;
+	font-size: 24px;
+	font-weight: bold;
 	}
 .product-info .left {
 	position:relative;
