@@ -55,7 +55,7 @@
 					<?php if ($product['thumb']) { ?><a href="<?php echo $product['href']; ?>"><img id="img_<?php echo $product['product_id']; ?>" src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" /></a><?php } ?>
 					
 				</div>
-				<div style="display:none;">
+				<div style="display:block;">
 					<div  class="quick-view<?php echo $i;?> preview">
 						<div class="wrapper marg row-fluid">
 							<div class="left span4">
