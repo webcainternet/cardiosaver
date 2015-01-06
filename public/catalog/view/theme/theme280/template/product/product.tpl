@@ -522,7 +522,7 @@ $('#button-cart').bind('click', function() {
 				$('#cart-total').html(json['total']);
 				$('#cart-total2').html(json['total']);
 				$('#cart').load('index.php?route=module/cart #cart > *');
-				$('html, body').animate({ scrollTop: 0 }, 'slow'); 
+				$('html, body').animate({ scrollTop: 0 }, 'slow'); location.href = "index.php?route=checkout/cart"; 
 			}	
 			setTimeout(function() {$('.success').fadeOut(1000)},3000)
 		}
