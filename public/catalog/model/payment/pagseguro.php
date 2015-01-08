@@ -21,6 +21,7 @@ class ModelPaymentPagseguro extends Model {
       		$method_data = array( 
         		'code'       => 'pagseguro',
         		'title'      => $this->language->get('text_title'),
+        		'img'      => '<img src="image/data/payment/pagseguro.jpg"/>',
 				'sort_order' => $this->config->get('pagseguro_sort_order')
       		);
     	}

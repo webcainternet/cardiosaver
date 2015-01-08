@@ -5,8 +5,8 @@
 <p><?php echo $text_payment_method; ?></p>
 <div>
 	<?php foreach ($payment_methods as $payment_method) { ?>
-	<div class="highlight">
-		<label class="radio" for="<?php echo $payment_method['code']; ?>"><?php echo $payment_method['title']; ?>
+	<div class="highlight" style="border: solid 1px #ddd;padding: 10px;border-radius: 10px;margin-bottom: 10px;width: 743px;">
+		<label class="radio" for="<?php echo $payment_method['code']; ?>"><?php echo $payment_method['title']."<br>".$payment_method['img']; ?>
 			<?php if ($payment_method['code'] == $code || !$code) { ?>
 			<?php $code = $payment_method['code']; ?>
 			<input type="radio" name="payment_method" value="<?php echo $payment_method['code']; ?>" id="<?php echo $payment_method['code']; ?>" checked="checked" />

@@ -21,6 +21,7 @@ class ModelPaymentBancoSantander extends Model {
       		$method_data = array( 
         		'code'       => 'bancosantander',
         		'title'      => $this->config->get('bancosantander_nome'),
+        		'img'      => '<img src="image/data/payment/boleto.jpg"/>',
 				'sort_order' => $this->config->get('bancosantander_sort_order')
       		);
     	}
