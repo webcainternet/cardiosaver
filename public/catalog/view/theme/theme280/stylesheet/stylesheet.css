@@ -1099,6 +1099,7 @@ a.button {
 	border-radius:5px;
 	color:#FFF;
 	float:left;
+	padding: 10px;
 	}
 a.button span {
 	color: #fff;
