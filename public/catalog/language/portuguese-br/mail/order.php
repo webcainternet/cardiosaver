@@ -1,7 +1,7 @@
 <?php
 // Text
 $_['text_new_subject']          = '%s - Pedido %s';
-$_['text_new_greeting']         = 'Obrigado por se interessar nos produtos da loja %s.';
+$_['text_new_greeting']         = 'Obrigado por se interessar nos produtos da %s.';
 $_['text_new_received']         = 'Você recebeu um pedido.';
 $_['text_new_link']             = 'Para acompanhar o andamento do seu pedido, clique no link abaixo:';
 $_['text_new_order_detail']     = 'Detalhes do Pedido';
